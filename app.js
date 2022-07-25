@@ -32,10 +32,10 @@ function calcular() {
 }
 
 
-function recuperarTasaNominal() {
+/*function recuperarTasaNominal() {
     let tasa = document.getElementById("inpTasa").value;
     return tasa / 100;
-}
+}*/
 function calcularInteres(valor, tasa) {
     return valor * (tasa * 30 / 365);
 }
